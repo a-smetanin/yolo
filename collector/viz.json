@@ -5,7 +5,7 @@
   "table": "yolo_detection",
   "palette": "yolo",
   "default_visible": true,
-  "include_classes": [0, 1, 2],
+  "include_classes": [0],
   "classes": {
     "0": { "name": "Выбоина", "color": "#22c55e" },
   }
