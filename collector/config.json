@@ -6,24 +6,29 @@
     "fields": [
       {
         "field_id": "demo_text",
-        "priority": 1,
         "type": "text_input",
         "title": "Пример текста",
-        "instructions": "Заполните поле",
-        "validation": {}
+        "instructions": "Заполните поле"
+      },
+      {
+        "field_id": "field_zlsf2n",
+        "type": "camera_photo",
+        "title": "Новое поле",
+        "instructions": ""
       }
     ],
     "flow": {
       "steps": [
         {
           "id": "form1",
-          "screen": "form",
+          "screen": "scroll_form",
+          "form_title": "yolo",
           "field_ids": [
+            "field_zlsf2n",
             "demo_text"
           ]
         }
       ]
-    },
-    "ui": {}
+    }
   }
 }
