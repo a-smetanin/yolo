@@ -5,12 +5,6 @@
   "config": {
     "fields": [
       {
-        "field_id": "demo_text",
-        "type": "text_input",
-        "title": "Пример текста",
-        "instructions": "Заполните поле"
-      },
-      {
         "field_id": "field_zlsf2n",
         "type": "camera_photo",
         "title": "Новое поле",
@@ -22,11 +16,10 @@
         {
           "id": "form1",
           "screen": "scroll_form",
-          "form_title": "yolo",
           "field_ids": [
-            "field_zlsf2n",
-            "demo_text"
-          ]
+            "field_zlsf2n"
+          ],
+          "form_title": "yolo"
         },
         {
           "id": "step_zm4nts",
