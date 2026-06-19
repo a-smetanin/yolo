@@ -9,6 +9,12 @@
         "type": "camera_photo",
         "title": "Новое поле",
         "instructions": ""
+      },
+      {
+        "field_id": "inst",
+        "type": "instruction",
+        "title": "",
+        "instructions": "Тест поле"
       }
     ],
     "flow": {
@@ -17,7 +23,8 @@
           "id": "form1",
           "screen": "scroll_form",
           "field_ids": [
-            "field_zlsf2n"
+            "field_zlsf2n",
+            "inst"
           ],
           "form_title": "yolo"
         },
